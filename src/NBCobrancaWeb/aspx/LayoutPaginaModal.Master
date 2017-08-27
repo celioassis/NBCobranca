@@ -1,0 +1,41 @@
+<%@ Master Language="C#" AutoEventWireup="true" Codebehind="LayoutPaginaModal.master.cs"
+    Inherits="NBCobranca.aspx.LayoutPaginaModal" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../estilos/links.css" rel="stylesheet" type="text/css" />
+    <link href="../estilos/texto.css" rel="stylesheet" type="text/css" />
+    <link href="../estilos/LayoutPaginaModal.css" rel="stylesheet" type="text/css" />
+
+    <script type="text/javascript" src="../scripts/mostra_esconde_campos.js"></script>
+
+    <script type="text/javascript" src="../scripts/trata_campo.js"></script>
+
+    <script type="text/javascript" src="../scripts/relatorio.js"></script>
+
+    <script type="text/javascript" src="../scripts/AnthemCallBack.js">function ddlCartas_onclick() {
+
+}
+
+    </script>
+
+</head>
+<body>
+    <form id="LayoutPaginaModal" runat="server">
+        <div id="Cabecalho">
+            <div id="FundoCabecalho">
+                <div id="TituloCabecalho">
+                    <asp:ContentPlaceHolder ID="TituloModal" runat="server" />
+                </div>
+                <div id="CantoDireitoCabecalho">
+                </div>
+            </div>
+        </div>
+        <div id="Conteudo">
+            <asp:ContentPlaceHolder ID="ConteudoPaginaModal" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

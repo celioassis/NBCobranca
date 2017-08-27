@@ -1,0 +1,57 @@
+#conteudo {
+	padding-right: 0.5cm;
+	padding-left: 2cm;
+	padding-bottom: 1cm;
+	width: 20cm;
+	padding-top: 1cm;
+	height: 30cm;
+
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:black;
+	/*border:solid 1px red;*/
+}
+
+.tracejado {
+	display:none;
+}
+
+.cabecalhoPagina
+{
+	font-weight: bold;
+	background-color: gray;
+	color:Black;
+}
+.proximaPagina {
+	page-break-after:auto;
+	/*page-break-before:always;*/
+}
+.GridItem
+{
+	overflow:hidden;
+}
+
+
+#dvDadosDevedor, #dvTitulo
+{
+	padding-left: 150px;
+}
+
+#dvConteudoCarta
+{
+	text-align: justify;
+	text-indent: 50pt;
+}
+
+#dvConteudoCarta div
+{
+	text-align: justify;
+	text-indent: 50pt;
+	display: block;
+}
+
+#dvRodape
+{
+	width: 100%;
+	text-align: center;
+}

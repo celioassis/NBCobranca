@@ -1,0 +1,226 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{61C6B8BD-B23E-481B-B575-1C9C8A506B33}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>NBdbm</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyMode>None</AssemblyOriginatorKeyMode>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionStrict>Off</OptionStrict>
+    <RootNamespace>NBdbm</RootNamespace>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <MyType>Windows</MyType>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>NBdbm.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>true</DebugSymbols>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NOWARN>1591</NOWARN>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>NBdbm.xml</DocumentationFile>
+    <BaseAddress>285212672</BaseAddress>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>
+    </DefineConstants>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <DebugSymbols>false</DebugSymbols>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <NOWARN>1591</NOWARN>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'NBCobrancaWeb|AnyCPU' ">
+    <OutputPath>bin\NBCobrancaWeb\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="default.ini.xml" />
+    <Content Include="documentacao\Requisitos.txt" />
+    <None Include="bin\nbdbm.dll.config" />
+    <Compile Include="Classes\AdmDB\admDB.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\AdmDB\admDB_ODBC.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\AdmDB\admDB_OLE.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\AdmDB\admDB_SQLsrv.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\exception.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Fachadas\Connection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Fachadas\CTR.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Fachadas\fachadas.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Fachadas\plxBBO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Fachadas\plxCobranca.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Fachadas\plxEVT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Fachada_Net\command.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Fachada_Net\conect.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Fachada_Net\dataprovider.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Fachada_Net\exemplo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Fachada_Net\para.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Fachada_Net\ParaColl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Fachada_Net\result.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Fachada_Net\transaction.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Interfaces\iAdmDB.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Interfaces\iCOBR.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Interfaces\iCTR.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Interfaces\iCX.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Interfaces\iEVT.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Interfaces\iManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Interfaces\iPrimitivas.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\MngPGsql\mngPGsql.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\MngSQLsvr\mngSQLsvr.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Mng\exemplo_Storage.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Mng\mng.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Mng\script.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\NBFuncoes.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Parsers\finan32\parser_Finan32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Parsers\finan32\plxFinan32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\self.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\settings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\Tarefa.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Classes\tipos\tiposNBDBM.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)/Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

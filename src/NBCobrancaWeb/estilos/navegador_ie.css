@@ -1,0 +1,32 @@
+/* CSS Document */
+
+input, select, textarea { 
+	background-color:	#EDF8D5;
+	border-left:		1px solid #B9DEB9;
+	border-right:		1px solid #B9DEB9;
+	border-top:			1px solid #B9DEB9;
+	border-bottom:		1px solid #B9DEB9; 
+	color:				#186318;
+	font-family:		arial,geneva,helvetica,sans-serif;
+	font-size:			11px;
+	width:				100%; 
+	visibility:			visible;
+}
+
+#rblFuncionarioAtivo_0, #rblFuncionarioAtivo_1, 
+#rblCredencial_0, #rblCredencial_1, #rblCredencial_2, 
+#rbClasses_0, #rbClasses_1, 
+#rblTipoItem_0, #rblTipoItem_1,
+#rbPesqPor_0, #rbPesqPor_1,
+#cbNovoModelo, #rblOrcImpressao_0,
+#rblOrcImpressao_1, #rblOrcImpressao_2,
+#rblOrcImpressao_3, #rblOrcImpressao_4,
+#ckbPagouNoCliente, #ckbBaixaParcial, 
+#ckbJaEmitidas, #ckbSegundoAviso, #ctl00_phConteudo_ckbSegundoAviso, 
+#ctl00_phConteudo_chkAgruparDividas {
+	width: 18px;
+}
+	
+.radio {
+	width:20px;
+}

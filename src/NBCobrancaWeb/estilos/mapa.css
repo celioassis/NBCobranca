@@ -1,0 +1,227 @@
+/* CSS Document */
+
+a:link {
+	color:#000000;
+	text-decoration:none;	
+}
+a:visited {
+	color:#000000;
+	text-decoration:none;	
+}
+a:hover {
+	color:blue;
+	text-decoration:none;
+}
+a:active {
+	color:#000000;
+	text-decoration:none;	
+}
+
+.mapa {
+	background-color:#f9f9f9;
+	border-top:none;
+	border-bottom:none;
+	/*border-right:1px solid #CCCCCC;
+	border-left:1px solid #CCCCCC;*/
+	padding:0;
+	margin:0;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+}
+
+.comandos {
+	BORDER-RIGHT:#cccccc 1px solid;
+	BORDER-LEFT:#cccccc 1px solid;
+	BACKGROUND-IMAGE:url(../imagens/mapa/mapa_bg_btn.jpg);
+}
+
+.desc{
+	background-color:#009933;
+	color:#FFFFFF;
+	padding:2px;
+	font-size:12px;
+	font-weight:bold;
+	height:20px;
+	width:100%;
+}
+
+.data{
+	background-color:#9999CC;
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	padding:2px;
+	text-align:center;
+	color:#000000;
+	font-size:11px;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+}
+
+
+
+.item_0 {
+	background-color:#f0f0f0;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#CCCCCC;
+	padding:2px;
+	font-size:11px;
+	height:20px;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	width:400px;
+}
+.item_1 {
+	background-color:#e5e5e5;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#CCCCCC;
+	padding:2px;
+	font-size:11px;
+	height:20px;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	width:400px;
+}
+
+
+.disponivel {
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+}
+
+.orcado {
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	
+	background: #F5F183; /*transparent url(../imagens/mapa/orcado.gif) repeat-x 50% 50%;*/ 
+	padding:2px;
+	font-size:9px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+}
+
+.confirmado {
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	
+	background: #65E09A;/*transparent url(../imagens/mapa/confirmado.gif) repeat 50% 50%;*/
+	padding:2px;
+	font-size:9px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+}
+
+.locado {
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	
+	background-color: #7AB9F3; /*transparent url(../imagens/mapa/locado.gif) left center repeat;*/
+	padding:2px;
+	font-size:9px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+}
+
+.pendente {
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	
+	background: #FF3C3C; /*transparent url(../imagens/mapa/pendente.gif) repeat 50% 50%;*/
+	padding:2px;
+	font-size:9px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+}
+
+.manutencao {
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	
+	background: #BD8352; /*transparent url(../imagens/mapa/manutencao.gif) repeat 50% 50%;*/ 
+	padding:2px;
+	font-size:9px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:left;
+}
+
+
+
+
+.passado {
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#CCCCCC;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-left-color:#CCCCCC;
+	background: transparent url(../imagens/hachurado.gif) repeat 50% 50%; 
+	font-size:9px;
+	text-align:left;
+}
+
+
+
+/* ToolTip
+ * Ao passar o mouse por cima do nome da empresa
+ * mostra um tooltip com informações daquela
+ * situação
+ */
+a.dcontexto{
+	position:relative; 
+	font:10px arial, verdana, helvetica, sans-serif; 
+	padding:0;
+	color:#039;
+	text-decoration:none;
+	/*border-bottom:2px dotted #039;*/
+	cursor:hand; 
+	z-index:24;
+}
+a.dcontexto:hover{
+	background:transparent;
+	z-index:25; 
+}
+a.dcontexto span {
+	display: none;
+}
+a.dcontexto:hover span { 
+	display:block;
+	position:absolute;
+	width:218px; 
+	top:1.4em;
+	left:0;
+	text-align:justify;
+	font: 10px arial, verdana, helvetica, sans-serif; 
+	padding:1px 1px;
+	border-top:1px solid #CCCCCC;
+	border-left:1px solid #CCCCCC;
+	border-bottom:2px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+	background:#E5E5E5; 
+	color:#000;
+	text-decoration:none;
+}
+
+
+
+
+
+.txt {
+	font-family: arial, geneva, helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+.txt_peq { 
+	font-family: arial, geneva, helvetica, sans-serif;
+    font-size: 9px;
+	color: #000000;
+}
+
+
+
+.today {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: black; FONT-FAMILY: sans-serif
+}
+.days {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: sans-serif; TEXT-ALIGN: center
+}
+.dates {
+	FONT-SIZE: 9pt; COLOR: black; FONT-FAMILY: sans-serif; TEXT-ALIGN: center
+}

@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBDB", "NBDB\NBDB.csproj", "{E039CA95-7954-44A5-907F-A4BE640E5F1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBUtil", "NBUtil\NBUtil.csproj", "{9779A7CA-A327-4430-B2BA-44D4E202B56C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "NBdbm", "NBdbm\NBdbm.vbproj", "{61C6B8BD-B23E-481B-B575-1C9C8A506B33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBWebControls", "NBWebControls\NBWebControls.csproj", "{FD94580C-81A1-40E5-83DF-19299196C7E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBCobrancaWeb", "NBCobrancaWeb\NBCobrancaWeb.csproj", "{E68FD637-E6A4-4694-BA4B-85BB2DA76F5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBCobrancaWebTest", "NBCobrancaWebTest\NBCobrancaWebTest.csproj", "{D2DAA2E8-4DC6-4D7C-8F2B-095F2D329069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestesEmGeral", "TestesEmGeral\TestesEmGeral.csproj", "{A728B930-FA88-4A6A-9915-03E86B5C26AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		NBCobrancaWeb|Any CPU = NBCobrancaWeb|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E039CA95-7954-44A5-907F-A4BE640E5F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E039CA95-7954-44A5-907F-A4BE640E5F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E039CA95-7954-44A5-907F-A4BE640E5F1C}.NBCobrancaWeb|Any CPU.ActiveCfg = NBCobrancaWeb|Any CPU
+		{E039CA95-7954-44A5-907F-A4BE640E5F1C}.NBCobrancaWeb|Any CPU.Build.0 = NBCobrancaWeb|Any CPU
+		{E039CA95-7954-44A5-907F-A4BE640E5F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E039CA95-7954-44A5-907F-A4BE640E5F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9779A7CA-A327-4430-B2BA-44D4E202B56C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9779A7CA-A327-4430-B2BA-44D4E202B56C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9779A7CA-A327-4430-B2BA-44D4E202B56C}.NBCobrancaWeb|Any CPU.ActiveCfg = NBCobrancaWeb|Any CPU
+		{9779A7CA-A327-4430-B2BA-44D4E202B56C}.NBCobrancaWeb|Any CPU.Build.0 = NBCobrancaWeb|Any CPU
+		{9779A7CA-A327-4430-B2BA-44D4E202B56C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9779A7CA-A327-4430-B2BA-44D4E202B56C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61C6B8BD-B23E-481B-B575-1C9C8A506B33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C6B8BD-B23E-481B-B575-1C9C8A506B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C6B8BD-B23E-481B-B575-1C9C8A506B33}.NBCobrancaWeb|Any CPU.ActiveCfg = NBCobrancaWeb|Any CPU
+		{61C6B8BD-B23E-481B-B575-1C9C8A506B33}.NBCobrancaWeb|Any CPU.Build.0 = NBCobrancaWeb|Any CPU
+		{61C6B8BD-B23E-481B-B575-1C9C8A506B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C6B8BD-B23E-481B-B575-1C9C8A506B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD94580C-81A1-40E5-83DF-19299196C7E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD94580C-81A1-40E5-83DF-19299196C7E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD94580C-81A1-40E5-83DF-19299196C7E3}.NBCobrancaWeb|Any CPU.ActiveCfg = NBCobrancaWeb|Any CPU
+		{FD94580C-81A1-40E5-83DF-19299196C7E3}.NBCobrancaWeb|Any CPU.Build.0 = NBCobrancaWeb|Any CPU
+		{FD94580C-81A1-40E5-83DF-19299196C7E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD94580C-81A1-40E5-83DF-19299196C7E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E68FD637-E6A4-4694-BA4B-85BB2DA76F5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E68FD637-E6A4-4694-BA4B-85BB2DA76F5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E68FD637-E6A4-4694-BA4B-85BB2DA76F5D}.NBCobrancaWeb|Any CPU.ActiveCfg = NBCobrancaWeb|Any CPU
+		{E68FD637-E6A4-4694-BA4B-85BB2DA76F5D}.NBCobrancaWeb|Any CPU.Build.0 = NBCobrancaWeb|Any CPU
+		{E68FD637-E6A4-4694-BA4B-85BB2DA76F5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E68FD637-E6A4-4694-BA4B-85BB2DA76F5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2DAA2E8-4DC6-4D7C-8F2B-095F2D329069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2DAA2E8-4DC6-4D7C-8F2B-095F2D329069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2DAA2E8-4DC6-4D7C-8F2B-095F2D329069}.NBCobrancaWeb|Any CPU.ActiveCfg = Release|Any CPU
+		{D2DAA2E8-4DC6-4D7C-8F2B-095F2D329069}.NBCobrancaWeb|Any CPU.Build.0 = Release|Any CPU
+		{D2DAA2E8-4DC6-4D7C-8F2B-095F2D329069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2DAA2E8-4DC6-4D7C-8F2B-095F2D329069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A728B930-FA88-4A6A-9915-03E86B5C26AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A728B930-FA88-4A6A-9915-03E86B5C26AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A728B930-FA88-4A6A-9915-03E86B5C26AE}.NBCobrancaWeb|Any CPU.ActiveCfg = Release|Any CPU
+		{A728B930-FA88-4A6A-9915-03E86B5C26AE}.NBCobrancaWeb|Any CPU.Build.0 = Release|Any CPU
+		{A728B930-FA88-4A6A-9915-03E86B5C26AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A728B930-FA88-4A6A-9915-03E86B5C26AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

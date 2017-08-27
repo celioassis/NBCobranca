@@ -1,0 +1,29 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/src/NBCobrancaWeb/bin
+/src/NBCobrancaWeb/obj
+/src/NBCobrancaWeb/NBCobranca2005.Publish.xml
+/src/NBCobrancaWeb/Pasta Local.pubxml.user
+/src/NBCobrancaWeb/Pasta Local.pubxml
+/src/NBCobrancaWeb2/obj/Debug
+/src/NBCobrancaWebTest/bin/Debug
+/src/NBCobrancaWebTest/obj
+/src/NBDB/bin
+/src/NBDB/obj
+/src/NBdbm/bin
+/src/NBdbm/CS/bin
+/src/NBdbm/CS/obj
+/src/NBdbm/exemplo/bin
+/src/NBdbm/exemplo/obj
+/src/NBdbm/obj
+/src/NBUtil/bin
+/src/NBUtil/obj
+/src/NBWebControls/bin
+/src/NBWebControls/obj
+/src/packages
+/src/TestesEmGeral/bin/Debug
+/src/TestesEmGeral/obj
+/src/UnitTestProject1/bin/Debug
+/src/UnitTestProject1/obj/Debug

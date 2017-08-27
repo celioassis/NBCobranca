@@ -1,0 +1,124 @@
+.dg_header
+{
+	font-family: geneva, helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 0px;
+	height: 19px;
+	background-color: #9acd32;
+}
+.dg_header_peq {
+	font-family: geneva, helvetica, sans-serif;
+    font-size: 11px;
+	color: #FFFFFF;
+	font-weight: bold;
+	padding: 0px;
+	height: 17px;
+}
+.dg_item {
+	font-family: geneva, helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	padding-left: 3px;
+	height: 19px; 
+}
+.txt 
+{
+	font-family: geneva, helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+.txt_peq { 
+	font-family: geneva, helvetica, sans-serif;
+    font-size: 9px;
+	color: #000000;
+}
+
+.titulo { 
+	font-family: geneva, helvetica, sans-serif;
+    font-size: 18px;
+	color: #186318;
+	font-weight: bold;
+}
+
+.destacar { 
+	font-family: geneva, helvetica, sans-serif;
+    font-size: 11px;
+	font-weight: bold;
+	color: #FF0000;
+}
+
+.des_campo { 
+	font-family: geneva, helvetica, sans-serif;
+    font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.user_ativo { 
+	font-family: geneva, helvetica, sans-serif;
+    font-size: 9px;
+	color: #567B07;
+}
+.botao
+{
+	border: #00cc66 1px solid;
+	font-size: 11px;
+	color: #000000;
+	font-family: geneva, helvetica, sans-serif;
+	background-color: #99ff66;
+	cursor: hand;
+	font-weight: bold;
+}
+.botaoAzul
+{
+	border-right: #003366 2px outset;
+	border-top: #5489b0 2px outset;
+	font-weight: bold;
+	font-size: 10px;
+	background-image: none;
+	border-left: #5489b0 2px outset;
+	cursor: hand;
+	color: white;
+	border-bottom: #003366 2px outset;
+	font-family: Verdana, geneva, helvetica, sans-serif;
+	background-color: #5489b0;
+	text-align: center;
+	font-variant: small-caps;
+}
+
+.botaoVermelho
+{
+	border:#e36666 2px outset;
+	font-weight: bold;
+	font-size: 10px;
+	cursor: hand;
+	color: white;
+	font-family: Verdana, geneva, helvetica, sans-serif;
+	background-color: #e36666;
+	text-align: center;
+	font-variant: small-caps;
+}
+
+#tela_classes {
+	width:98%;
+	height:220px;
+	background-color:#F2F2F2;
+	border:1px solid #cccccc;
+	padding:1px;
+}
+body {
+	scrollbar-highlight-color:	#FFFFFF;
+	scrollbar-face-color:  	  	#B9DEB9;
+	scrollbar-shadow-color:		#B9DEB9;
+	scrollbar-3dlight-color:	#B9DEB9;
+	scrollbar-arrow-color: 		#006699;
+	scrollbar-track-color: 		#FAFAFA;
+	scrollbar-darkshadow-color: #98AAB1;
+}
+.campoMoeda
+{
+	text-align: right;
+}

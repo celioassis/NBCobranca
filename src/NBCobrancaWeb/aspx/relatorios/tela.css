@@ -1,0 +1,54 @@
+body
+{
+	background-color: #F2F2F2;
+}
+
+#conteudo
+{
+	background-color: #FFFFFF;
+	padding-right: 1cm;
+	padding-left: 2cm;
+	padding-bottom: 1cm;
+	width: 17cm;
+	padding-top: 1cm;
+	/*height: 27cm;*/
+	border-color: #000000;
+	border-style: solid;
+	border-width: 2px;
+	font-family: 'Times New Roman' , Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	color: black;
+}
+
+.tracejado
+{
+	border-bottom-color: #000000;
+	border-bottom-style: dashed;
+	border-bottom-width: 1px;
+}
+.cabecalhoPagina
+{
+	display: none;
+}
+.proximaPagina
+{
+	display: none;
+}
+
+#dvDadosDevedor, #dvTitulo
+{
+	padding-left: 150px;
+}
+
+#dvConteudoCarta
+{
+	text-align: justify;
+	text-indent: 50pt;
+}
+
+#dvRodape
+{
+	width: 100%;
+	text-align: center;
+	/*border:solid 1px red;*/
+}

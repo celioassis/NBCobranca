@@ -1,0 +1,128 @@
+body
+{
+	margin: 0px;
+	height: 100%;
+}
+
+input[type="radio"]
+{
+	background-color: #EDF8D5;
+	border-left: 1px solid #B9DEB9;
+	border-right: 1px solid #B9DEB9;
+	border-top: 1px solid #B9DEB9;
+	border-bottom: 1px solid #B9DEB9;
+	color: #186318;
+}
+
+input[type="text"], input[type="submit"], input[type="password"], select, textarea
+{
+	background-color: #EDF8D5;
+	border-left: 1px solid #B9DEB9;
+	border-right: 1px solid #B9DEB9;
+	border-top: 1px solid #B9DEB9;
+	border-bottom: 1px solid #B9DEB9;
+	color: #186318;
+	font-family: arial, geneva, helvetica, sans-serif;
+	font-size: 11px;
+	width: 100%;
+}
+
+option
+{
+	background-color: #EDF8D5;
+	color: #186318;
+	font-family: arial, geneva, helvetica, sans-serif;
+	font-size: 11px;
+}
+
+#Cabecalho
+{
+	background-image: url(../imagens/tela_peq_topo_left.jpg);
+	background-repeat: no-repeat;
+	height: 52px;
+	width: 100%;
+}
+#FundoCabecalho
+{
+	------border: solid;
+	background-image: url(../imagens/tela_peq_topo_meio.jpg);
+	background-repeat: repeat-x;
+	height: 100%;
+	margin-left: 30px;
+	
+}
+
+#TituloCabecalho
+{
+	float: left;
+	height: 100%;
+	font-family: arial, geneva, helvetica, sans-serif;
+	font-size: 18px;
+	color: #186318;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+#CantoDireitoCabecalho
+{
+	background-image: url(../imagens/tela_peq_topo_right.jpg);
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 100%;
+	float: right;
+}
+
+#ConteudoBorda
+{
+	background-image: url(../imagens/tela_peq_f_lateral.jpg);
+	background-repeat: repeat-y;
+	width: 12px;
+	height: 100%;
+	float: left;
+}
+
+#Conteudo
+{
+	background-image: url(../imagens/tela_peq_f_lateral.jpg);
+	background-repeat: repeat-y;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.divColunas
+{
+	float: left;
+	padding-right: 0.5%;
+}
+.divTabela
+{
+	width: 99%;
+	display: flex;
+	height: inherit;
+}
+.divTabelaBgColor
+{
+	background-color: #f8f9f6;
+	padding-bottom:2px;
+}
+.barraTituloSnap
+{
+	background-color: #a4c955;
+	height: 22px;
+	cursor: hand;
+	cursor: pointer;
+	background-image: url(../imagens/botoes/btn_abrefecha.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	height: 22px;
+}
+.barraTituloSnap div
+{
+	margin-top: 5px;
+}
+
+#Anthem_ctl00_ConteudoPaginaModal_gvDevedores__
+{
+	height:70px;
+	overflow-y:scroll;
+}

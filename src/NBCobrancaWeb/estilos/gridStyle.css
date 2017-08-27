@@ -1,0 +1,93 @@
+.GridClass
+{
+  CURSOR: default
+}
+
+.RowClass
+{
+  BACKGROUND-COLOR: #F9FCF3
+}
+
+.DataCell 
+{
+  BORDER-RIGHT: #ddecfe 1px solid;
+  PADDING-RIGHT: 4px;
+  FONT-SIZE: 10px;
+  CURSOR: default;
+  FONT-FAMILY: verdana;
+}
+
+.AlternatingRowClass 
+{
+  BACKGROUND-COLOR: #E9EFDD
+}
+
+.HeaderClass 
+{
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 10px;
+  FONT-FAMILY: verdana
+}
+
+.HeadingCellClass 
+{
+  PADDING-RIGHT: 10px;
+  PADDING-LEFT: 4px;
+  HEIGHT: 20px
+}
+
+.HeadingTextClass 
+{
+  PADDING-LEFT: 5px;
+  FONT-WEIGHT: bold;
+  FONT-SIZE: 10px;
+  FONT-FAMILY: verdana;
+  WHITE-SPACE: nowrap;
+}
+
+.HeadingRowClass 
+{
+  /*BACKGROUND: url(../imagens/grid/blue_bg.gif)*/
+  BACKGROUND-COLOR: YellowGreen
+}
+
+.SelectorCell 
+{
+  BORDER-RIGHT: 0px;
+  BORDER-TOP: 0px;
+  BACKGROUND: url(../imagens/grid/blue_bg.gif);
+  BORDER-LEFT: 0px;
+  BORDER-BOTTOM: 0px;
+  HEIGHT: 20px;
+  WIDTH: 5px;
+}
+
+.SelectorCellMain 
+{
+  BORDER-RIGHT: 0px;
+  BORDER-TOP: 0px;
+  BACKGROUND: url(../imagens/grid/blue_bg_main.gif);
+  BORDER-LEFT: 0px;
+  BORDER-BOTTOM: 0px;
+  HEIGHT: 20px
+}
+
+.SelectedRowClass 
+{
+  BORDER-RIGHT: #040484 1px solid;
+  BORDER-TOP: #040484 1px solid;
+  BORDER-LEFT: #040484 1px solid;
+  BORDER-BOTTOM: #040484 1px solid;   BACKGROUND-COLOR: #90a8d0
+}
+
+.SelectedRowClass TD.DataCell 
+{
+  BORDER-RIGHT: #90a8d0 1px solid
+}
+
+.IndentCell 
+{
+  BORDER-RIGHT: 0px;
+  BACKGROUND: #e5e5e5; /*#a9c7f4;*/
+  HEIGHT: 20px;
+}

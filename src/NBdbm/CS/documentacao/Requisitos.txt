@@ -1,0 +1,34 @@
+Biblioteca de Manutenção de Banco de Dados
+
+Nome: NBDBM.dll
+Resp.: Edgar Francis
+
+Requistos da Biblioteca:
+
+Ser capaz de:
+
+	Manager DB
+		- Criar o Banco de Dados
+		- Construir o Banco de Dados com suas tabelas e consultas
+		- Atualizar as tabelas e consultas
+		- Respeitar a versao de cada grupo de tabelas
+		- Fazer um check list completo para homologar o Banco de Dados
+
+	Manager Read-Write
+		- Ter uma classe para tabela ou conjunto de tabelas afins.
+		- Manter a integridade do Banco de Dados, controlando:
+				- Alterações
+				- Inserções
+				- Exclusões
+
+Utilizar as seguintes Tecnologias:
+
+	- SQL Server 7.0 ou superior
+	- PostGrees SQL
+	- Access 97 ou superior
+
+Tipos de Conexão:
+
+	- ODBC
+	- OLEDB
+	- SQLDB

@@ -1,0 +1,37 @@
+/* Este CSS funciona nos seguintes Navegadores:
+   - Konqueror		(Linux)
+   - Mozila Firefox (Linux e Windows)
+   - Opera			(Windows)
+   - Netscape		(Windows) */
+
+input[type="radio"] { 
+	background-color:	#EDF8D5;
+	border-left:		1px solid #B9DEB9;
+	border-right:		1px solid #B9DEB9;
+	border-top:			1px solid #B9DEB9;
+	border-bottom:		1px solid #B9DEB9;
+	color:				#186318;
+}
+ 
+input[type="text"], input[type="button"], input[type="password"], select, textarea { 
+	width: 				100%;
+	background-color:	#EDF8D5;
+	border-left:		1px solid #B9DEB9;
+	border-right:		1px solid #B9DEB9;
+	border-top:			1px solid #B9DEB9;
+	border-bottom:		1px solid #B9DEB9; 
+	color:				#186318;
+	font-family:		arial, geneva, helvetica, sans-serif;
+	font-size:			11px;	
+}
+
+option { 
+	background-color:	#EDF8D5; 
+	color:				#186318;
+	font-family:		arial, geneva, helvetica, sans-serif;
+	font-size:			11px;	
+}
+
+form {
+	margin: 0px;
+}

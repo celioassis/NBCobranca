@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Atributos = Exemplo ou explicações -->
+<!-- Nós = Valores das variaveis em uso -->
+<root>
+<config>
+  <gerais>
+    <tipoconexao
+		help="aqui vai o tipo de conexão"
+		exemplo="ODBC"
+		valor="SQLSERVER"
+		/>
+    <tipobanco
+		help="Tipo de Banco de Dados"
+		exemplo="SQLSERVER"
+		valor="postgresql"
+		/>
+    <urlhost
+		help="página do sistema"
+		exemplo="http://localhost/controleweb/"
+		valor="http://localhost/controleweb"
+		/>
+    <basedirwwwroot
+		help="diretório do wwwroot"
+		exemplo="x:\inetpub\wwwroot\"
+		valor="x:\inetpub\wwwroot\"
+		/>
+    <basedirectori
+		help="diretório da aplicação"
+		exemplo="x:\Program Files\Neobridge"
+		valor="x:\Program Files\Neobridge"
+		/>
+  </gerais>
+  <catalogos>
+    <ctrl
+		nome="Controle"
+		versaoatual="1.0.1"
+		/>
+    <bbo
+		nome="Banco do Brasil - office"
+		/>
+    <bbt
+		nome="Banco do Brasil - manual"
+		/>
+  </catalogos>
+</config>
+</root>

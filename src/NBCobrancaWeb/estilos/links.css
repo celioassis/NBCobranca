@@ -1,0 +1,24 @@
+a:link {
+	font-family: arial, geneva, helvetica, sans-serif;
+	font-size: 11px;
+	color: #006699;
+	text-decoration: none;
+}
+a:visited {
+	font-family: arial, geneva, helvetica, sans-serif;
+	font-size: 11px;
+	color: #006699;
+	text-decoration: none;
+}
+a:hover {
+	font-family: arial, geneva, helvetica, sans-serif;
+	font-size: 11px;
+	color: #006699; /*color: #234D76;*/
+	text-decoration: underline;
+}
+a:active {
+	font-family: arial, geneva, helvetica, sans-serif;
+	font-size: 11px;
+	color: #006699;
+	text-decoration: none;
+}

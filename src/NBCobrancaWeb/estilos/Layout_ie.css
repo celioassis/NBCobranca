@@ -1,0 +1,101 @@
+html
+{
+	height:80%;
+}
+
+body, form
+{
+	margin:0px;
+	height:100%;
+}
+
+#BordaDireita
+{
+	background: url(../imagens/layout/cmd.jpg) repeat-y;
+	width: 22px;
+	float: right;
+	height: 100%;
+	right: 6px;
+}
+
+#BordaEsquerda
+{
+	background:url(../imagens/layout/cme.jpg) repeat-y;
+	width: 20px;
+	float:left;
+	height:100%;
+	
+}
+
+#CabCantoEsquerdo
+{
+	background:transparent url(../imagens/layout/cce.jpg);
+	background-repeat:no-repeat;
+	float:left;
+	height:50px;
+	width:22px;
+	left:3px;
+	
+}
+
+#CabCantoDireito
+{
+	float:right;
+	height:50px;
+	width:22px;
+	right:3px;
+}
+
+#Cabecalho
+{
+	height:50px;
+}
+
+#Rodape
+{
+	height: 10%;
+}
+
+#Conteudo
+{
+	height: 80%;
+	width:100%;
+	background-color: #ffffff;
+	left:3px;
+}
+#RodCantoEsq
+{
+	float:left;
+	width:22px;
+	left:3px;
+	
+}
+#RodMeio
+{
+	background-image: url(../imagens/layout/cbc.jpg);
+	width: 100%;
+	height:22px;
+	background-repeat: repeat;
+	text-align:center;
+}
+#RodCantoDir
+{
+	float:right;
+	width:22px;
+	right:3px;
+}
+#user 
+{
+	background:transparent url(../imagens/layout/fuser.jpg) left top no-repeat;
+	width:160px;
+	text-align:center;
+	padding-top:6px;
+	font-family:Tahoma;
+	font-size:10px;
+	color:#11c402;
+	float:left;
+}
+#LogoNeobridge
+{
+	float:right;
+}
