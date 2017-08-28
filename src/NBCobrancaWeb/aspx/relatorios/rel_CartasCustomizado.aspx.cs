@@ -12,7 +12,6 @@ namespace NBCobranca.aspx.relatorios
     {
         private Sistema Sistema;
         private LimAcionamentos obj;
-        int mTotalRegistros = 0;
         private List<dtoCarta> ListaDeCartas;
 
         protected void Page_Load(object sender, EventArgs e)

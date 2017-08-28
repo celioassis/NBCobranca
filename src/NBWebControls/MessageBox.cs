@@ -501,12 +501,18 @@ namespace NBWebControls
             string mPostBackOnFechaModal = "aTipoAcao=0;";
 
             if (this.aPostBackOnYes)
-                mPostBackOnYes = Page.GetPostBackEventReference(this, "Yes" + this.aKey);
+#pragma warning disable CS0618 // Type or member is obsolete
+                mPostBackOnYes = Page.GetPostBackEventReference(this, "Yes" + aKey);
+#pragma warning restore CS0618 // Type or member is obsolete
             if (this.aPostBackOnNo)
+#pragma warning disable CS0618 // Type or member is obsolete
                 mPostBackOnNo = Page.GetPostBackEventReference(this, "No_" + this.aKey);
+#pragma warning restore CS0618 // Type or member is obsolete
             if (this.aPostBackOnCloseModal)
             {
+#pragma warning disable CS0618 // Type or member is obsolete
                 mPostBackOnFechaModal = "window.parent." + Page.GetPostBackEventReference(this, "Clo#" + this.aKey + "#" + this.aValorRetorno);
+#pragma warning restore CS0618 // Type or member is obsolete
                 string[] mArrayPost = mPostBackOnFechaModal.Split('\'');
                 if (this.aMsgBoxId != "")
                     mPostBackOnFechaModal = mArrayPost[0] + "'" + this.aMsgBoxId + "'" + mArrayPost[2] + "'" + mArrayPost[3] + "')";
@@ -1127,7 +1133,9 @@ namespace NBWebControls
         /// <param name='e'></param>
         protected override void OnPreRender(EventArgs e)
         {
+#pragma warning disable CS0618 // Type or member is obsolete
             if (this.aUsaModal && !base.Page.IsClientScriptBlockRegistered("DivShowModal"))
+#pragma warning restore CS0618 // Type or member is obsolete
             {
                 if (this.aGerarArquivoScript)
                 {
@@ -1137,10 +1145,18 @@ namespace NBWebControls
                         this.CriarArquivos("ScriptShowModal.js", this.aPastaScripts);
                         this.CriarArquivos("StyleShowModal.css", this.aPastaStyles);
 
+#pragma warning disable CS0618 // Type or member is obsolete
                         this.Page.RegisterClientScriptBlock("StyleShowModal", "<link href=\"" + this.aPastaStyles + "/StyleShowModal.css\" type=\"text/css\" rel=\"stylesheet\">");
+#pragma warning restore CS0618 // Type or member is obsolete
+#pragma warning disable CS0618 // Type or member is obsolete
                         this.Page.RegisterClientScriptBlock("ScriptCommonModal", "<script src=\"" + this.aPastaScripts + "/ScriptCommonModal.js\" type=\"text/javascript\"></script>");
+#pragma warning restore CS0618 // Type or member is obsolete
+#pragma warning disable CS0618 // Type or member is obsolete
                         this.Page.RegisterClientScriptBlock("ScriptShowModal", "<script src=\"" + this.aPastaScripts + "/ScriptShowModal.js\" type=\"text/javascript\"></script>");
+#pragma warning restore CS0618 // Type or member is obsolete
+#pragma warning disable CS0618 // Type or member is obsolete
                         this.Page.RegisterClientScriptBlock("DivShowModal", this.DivShowModal());
+#pragma warning restore CS0618 // Type or member is obsolete
                     }
                     catch (Exception ex)
                     {
@@ -1162,17 +1178,31 @@ namespace NBWebControls
                 }
                 else
                 {
+#pragma warning disable CS0618 // Type or member is obsolete
                     this.Page.RegisterClientScriptBlock("StyleShowModal", this.RegistraStyle(this.StyleShowModal()));
+#pragma warning restore CS0618 // Type or member is obsolete
+#pragma warning disable CS0618 // Type or member is obsolete
                     this.Page.RegisterClientScriptBlock("DivShowModal", this.DivShowModal());
+#pragma warning restore CS0618 // Type or member is obsolete
+#pragma warning disable CS0618 // Type or member is obsolete
                     this.Page.RegisterClientScriptBlock("ScriptCommonModal", this.RegistraScript(this.ScriptCommon()));
+#pragma warning restore CS0618 // Type or member is obsolete
+#pragma warning disable CS0618 // Type or member is obsolete
                     this.Page.RegisterClientScriptBlock("ScriptShowModal", this.RegistraScript(this.ScriptShowModal()));
+#pragma warning restore CS0618 // Type or member is obsolete
                 }
 
             }
+#pragma warning disable CS0618 // Type or member is obsolete
             if (!base.Page.IsClientScriptBlockRegistered("ScriptAcao"))
+#pragma warning restore CS0618 // Type or member is obsolete
+#pragma warning disable CS0618 // Type or member is obsolete
                 this.Page.RegisterClientScriptBlock("ScriptAcao", ScriptAcao());
+#pragma warning restore CS0618 // Type or member is obsolete
             if (this.aManterScroll)
+#pragma warning disable CS0618 // Type or member is obsolete
                 this.Page.RegisterHiddenField("__SCROLLPOS", "0");
+#pragma warning restore CS0618 // Type or member is obsolete
         }
 
         [Anthem.Method]

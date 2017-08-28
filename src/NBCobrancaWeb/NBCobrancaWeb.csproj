@@ -38,6 +38,7 @@
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
     <TargetFrameworkProfile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\</OutputPath>
@@ -585,6 +586,12 @@
     <Compile Include="Interfaces\IpresTelefone.cs" />
     <Compile Include="Interfaces\IpresTrocaSenha.cs" />
     <Compile Include="Interfaces\IpresView.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Settings.cs" />
     <Compile Include="view\BootStrap.Master.cs">
       <DependentUpon>BootStrap.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1046,6 +1053,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="Properties\Settings.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
     <None Include="scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="scripts\jquery-1.9.1.js" />
     <Content Include="scripts\jquery-1.9.1.min.js" />
@@ -1193,7 +1204,6 @@
     <Content Include="assets\sb-admin\less\mixins.less" />
     <Content Include="assets\sb-admin\less\sb-admin-2.less" />
     <Content Include="assets\sb-admin\less\variables.less" />
-    <Content Include="bin\NBCobranca.dll.config" />
     <Content Include="assets\sb-admin\js\plugins\jquery-inputmask\README.md" />
     <Content Include="assets\sb-admin\js\plugins\bootstrap-datepicker\CHANGELOG.md" />
     <Content Include="assets\sb-admin\js\plugins\bootstrap-datepicker\less\datepicker.less" />
@@ -1210,6 +1220,9 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{CF845C55-C321-4742-B673-E6212D061ED9}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
